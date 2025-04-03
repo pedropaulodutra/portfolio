@@ -154,7 +154,7 @@ export function ProjectsSection() {
             ))}
         </motion.div>
 
-        <div className="mt-20">
+        {/* <div className="mt-20">
           <h3 className="text-2xl font-bold text-center mb-10">Other Projects</h3>
           <motion.div
             variants={containerVariants}
@@ -204,7 +204,7 @@ export function ProjectsSection() {
                 </motion.div>
               ))}
           </motion.div>
-        </div>
+        </div> */}
       </div>
     </section>
   )
