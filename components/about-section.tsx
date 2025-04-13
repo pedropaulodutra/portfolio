@@ -65,7 +65,7 @@ export function AboutSection() {
             </p>
 
             <p className="text-muted-foreground">
-              Minha trajetória inclui uma base sólida em engenharia elétrica e automação industrial, seguida por uma transição para tecnologia e ciência de dados. Atualmente, estou me aprofundando em aprendizado de máquina, bancos de dados e visualização de dados, sempre buscando aprimorar minhas habilidades para impulsionar tomadas de decisão mais inteligentes e eficientes.
+              Minha trajetória inclui uma base sólida em programação e dados. Atualmente, estou me aprofundando em aprendizado de máquina, bancos de dados e visualização de dados, sempre buscando aprimorar minhas habilidades para impulsionar tomadas de decisão mais inteligentes e eficientes.
             </p>
 
             <ul className="space-y-2">
