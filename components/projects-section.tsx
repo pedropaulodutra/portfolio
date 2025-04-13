@@ -43,48 +43,20 @@ export function ProjectsSection() {
       featured: true,
     },
     {
-      title: "E-commerce User Behavior Analysis",
-      description: "Analysis of user behavior patterns to optimize conversion rates and improve user experience.",
-      image: "/placeholder.svg?height=600&width=800",
-      tags: ["Python", "Pandas", "Tableau", "SQL"],
-      demoUrl: "#",
-      repoUrl: "#",
-      featured: false,
-    },
-    {
-      title: "Stream Biz",
-      description: "O Stream Biz é um aplicativo em Streamlit focado em estudos, que analisa os dados de fechamento de ações desde 1º de janeiro de 2010. Os usuários podem explorar tendências históricas e realizar análises básicas do desempenho das ações ao longo do tempo, sendo ideal para aprendizado e experimentação com dados financeiros.",
+      title: "HDI - Disease Tracker API",
+      description: " É uma aplicação desenvolvida com FastAPI para fornecer acesso estruturado e performático aos dados epidemiológicos tratados pela plataforma Health Data Insights. Esta API consome arquivos Parquet previamente limpos e traduzidos, expondo endpoints que permitem consultas filtradas sobre notificações de doenças, com foco inicial nos casos de dengue registrados no Brasil.",
       image: "/hdi.svg?height=600&width=800",
-      tags: ["Next.js", "TypeScript", "Chart.js", "API"],
-      demoUrl: "https://streambiz.streamlit.app/",
-      repoUrl: "https://github.com/PedroDutra86/StreamBiz",
+      tags: ["Python", "FastAPI", "Docker"],
+      demoUrl: "https://hdi-disease-tracker-api.onrender.com/dengue",
+      repoUrl: "https://github.com/PedroDutra86/hdi-disease-tracker-api",
       featured: true,
     },
     {
-      title: "Market Trend Predictor",
-      description: "Machine learning model to predict market trends with an intuitive frontend interface.",
-      image: "/placeholder.svg?height=600&width=800",
-      tags: ["Python", "TensorFlow", "React", "API"],
-      demoUrl: "#",
-      repoUrl: "#",
-      featured: false,
-    },
-    {
-      title: "Customer Segmentation Tool",
-      description: "Interactive tool for segmenting customers based on behavior and demographics.",
-      image: "/placeholder.svg?height=600&width=800",
-      tags: ["R", "Shiny", "SQL", "Clustering"],
-      demoUrl: "#",
-      repoUrl: "#",
-      featured: false,
-    },
-    {
-      title: "Social Media Analytics Platform",
-      description: "Comprehensive platform for tracking and analyzing social media performance metrics.",
-      image: "/placeholder.svg?height=600&width=800",
-      tags: ["React", "Node.js", "MongoDB", "API"],
-      demoUrl: "#",
-      repoUrl: "#",
+      title: "HDI - Disease Tracker ",
+      description: "É uma aplicação Python projetada para automatizar o processo de ingestão, limpeza e tradução de dados epidemiológicos brutos em formato Parquet. Esta ferramenta serve como base para a alimentação da HDI Disease Tracker API, facilitando a padronização e disseminação de informações relacionadas a doenças notificadas no Brasil. ",
+      image: "/diseasetracker.jpeg?height=600&width=800",
+      tags: ["Python", "Pandas", "Numpy"],
+      repoUrl: "https://github.com/PedroDutra86/hdi-disease-tracker",
       featured: false,
     },
   ]
@@ -154,7 +126,7 @@ export function ProjectsSection() {
             ))}
         </motion.div>
 
-        {/* <div className="mt-20">
+        <div className="mt-20">
           <h3 className="text-2xl font-bold text-center mb-10">Other Projects</h3>
           <motion.div
             variants={containerVariants}
@@ -204,7 +176,7 @@ export function ProjectsSection() {
                 </motion.div>
               ))}
           </motion.div>
-        </div> */}
+        </div>
       </div>
     </section>
   )
