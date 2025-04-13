@@ -99,7 +99,7 @@ export function HeroSection() {
               
             </a>
           </Button>
-          <a href="/cv_pedro_dutra.pdf" download>
+          <a href="/cv_pedro_dutra (portuguese).pdf" download>
             <Button size="lg" variant="outline" className="rounded-full px-8">
               Download CV
             </Button>
