@@ -14,7 +14,7 @@ export function Footer() {
               Combinando análise de dados com desenvolvimento frontend para criar aplicações bonitas e orientadas por dados que fornecem insights significativos.
             </p>
             <div className="flex space-x-4 mt-6">
-              <Link href="https://github.com/PedroDutra86" className="text-muted-foreground hover:text-primary transition-colors">
+              <Link href="https://github.com/pedropaulodutra" className="text-muted-foreground hover:text-primary transition-colors">
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </Link>
@@ -46,27 +46,6 @@ export function Footer() {
               <li>
                 <Link href="#contact" className="text-muted-foreground hover:text-primary transition-colors">
                   Contato
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="font-medium text-lg mb-4">Políticas</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Políticas de Privacidade
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Termos de Serviço
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Política de Cookies
                 </Link>
               </li>
             </ul>
