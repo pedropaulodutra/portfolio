@@ -45,7 +45,7 @@ export function ProjectsSection() {
     {
       title: "HDI - Disease Tracker API",
       description: " É uma aplicação desenvolvida com FastAPI para fornecer acesso estruturado e performático aos dados epidemiológicos tratados pela plataforma Health Data Insights. Esta API consome arquivos Parquet previamente limpos e traduzidos, expondo endpoints que permitem consultas filtradas sobre notificações de doenças, com foco inicial nos casos de dengue registrados no Brasil.",
-      image: "/hdi.svg?height=600&width=800",
+      image: "/API.png?height=600&width=800",
       tags: ["Python", "FastAPI", "Docker"],
       demoUrl: "https://hdi-disease-tracker-api.onrender.com/dengue",
       repoUrl: "https://github.com/PedroDutra86/hdi-disease-tracker-api",
@@ -54,7 +54,7 @@ export function ProjectsSection() {
     {
       title: "HDI - Disease Tracker ",
       description: "É uma aplicação Python projetada para automatizar o processo de ingestão, limpeza e tradução de dados epidemiológicos brutos em formato Parquet. Esta ferramenta serve como base para a alimentação da HDI Disease Tracker API, facilitando a padronização e disseminação de informações relacionadas a doenças notificadas no Brasil. ",
-      image: "/diseasetracker.jpeg?height=600&width=800",
+      image: "/diseasetracker.png?height=600&width=800",
       tags: ["Python", "Pandas", "Numpy"],
       repoUrl: "https://github.com/PedroDutra86/hdi-disease-tracker",
       featured: false,
